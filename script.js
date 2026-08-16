@@ -3,24 +3,24 @@ const videos = [
     id: 1,
     title: "فيديو مترجم 1",
     description: "وصف الفيديو الأول.",
-    thumbnail: "https://placehold.co/800x450/12141a/ffffff?text=VIDEO+1",
-    player: "https://player.mediadelivery.net/play/728993/a803a574-e935-48a9-b650-b5332cf68502"
+    thumbnail: "PUT_THUMBNAIL_1_HERE",
+    player: "PUT_PLAYER_1_HERE"
   },
 
   {
     id: 2,
     title: "فيديو مترجم 2",
     description: "وصف الفيديو الثاني.",
-    thumbnail: "https://placehold.co/800x450/12141a/ffffff?text=VIDEO+2",
-    player: "https://player.mediadelivery.net/play/728993/9e7744d7-1ffd-42fb-ad71-d7d7eb2480f7"
+    thumbnail: "PUT_THUMBNAIL_2_HERE",
+    player: "PUT_PLAYER_2_HERE"
   },
 
   {
     id: 3,
     title: "فيديو مترجم 3",
     description: "وصف الفيديو الثالث.",
-    thumbnail: "https://placehold.co/800x450/12141a/ffffff?text=VIDEO+3",
-    player: "https://player.mediadelivery.net/play/728993/22bfdfca-9d32-417b-82a3-3579f028532e"
+    thumbnail: "PUT_THUMBNAIL_3_HERE",
+    player: "PUT_PLAYER_3_HERE"
   }
 ];
 
@@ -36,13 +36,11 @@ function renderVideos(list, container) {
   container.innerHTML = "";
 
   if (list.length === 0) {
-
     container.innerHTML = `
       <p class="no-results">
-        لا توجد فيديوهات مطابقة للبحث.
+        لا توجد فيديوهات.
       </p>
     `;
-
     return;
   }
 
@@ -59,6 +57,7 @@ function renderVideos(list, container) {
           src="${video.thumbnail}"
           alt="${video.title}"
           loading="lazy"
+          onerror="this.style.display='none'"
         >
 
         <div class="play-icon">
@@ -85,7 +84,6 @@ function renderVideos(list, container) {
     });
 
     container.appendChild(card);
-
   });
 }
 
@@ -108,10 +106,8 @@ if (videosGrid) {
     document.getElementById("videoCount");
 
   if (videoCount) {
-
     videoCount.textContent =
       `${videos.length} فيديو`;
-
   }
 }
 
@@ -155,7 +151,6 @@ if (searchInput && videosGrid) {
           `${results.length} فيديو`;
 
       }
-
     }
   );
 }
@@ -280,7 +275,6 @@ function renderRelatedVideos(currentId) {
     );
 
     container.appendChild(item);
-
   });
 }
 
@@ -319,13 +313,11 @@ if (likeButton) {
           Number(
             count.textContent
           ) + 1;
-
       }
 
       likeButton.classList.add(
         "liked"
       );
-
     }
   );
 }
