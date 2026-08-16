@@ -11,6 +11,10 @@
   --accent: #e63946;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -23,20 +27,29 @@ a {
   text-decoration: none;
 }
 
+
+/* HEADER */
+
 .header {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 100;
 
   min-height: 72px;
+
   padding: 12px 4%;
 
   display: flex;
   align-items: center;
+
   gap: 25px;
 
-  background: rgba(8, 9, 12, .95);
-  border-bottom: 1px solid var(--border);
+  background: rgba(8, 9, 12, .96);
+
+  border-bottom:
+    1px solid var(--border);
+
+  backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -50,21 +63,19 @@ nav {
   gap: 20px;
 }
 
-nav a,
-.back-top,
-.back-button {
+nav a {
   color: var(--muted);
+  font-size: 14px;
 }
 
-nav a:hover,
-.back-top:hover,
-.back-button:hover {
+nav a:hover {
   color: white;
 }
 
 #searchInput {
   width: 300px;
   max-width: 100%;
+
   margin-right: auto;
 
   padding: 12px 18px;
@@ -74,26 +85,40 @@ nav a:hover,
 
   background: #111319;
   color: white;
+
   outline: none;
 }
 
+
+/* MAIN */
+
 main {
   width: min(1250px, 94%);
-  margin: 35px auto 70px;
+
+  margin:
+    35px auto
+    70px;
 }
+
+
+/* HERO */
 
 .hero {
   padding: 45px;
+
   margin-bottom: 45px;
 
-  border: 1px solid var(--border);
+  border:
+    1px solid var(--border);
+
   border-radius: 22px;
 
-  background: linear-gradient(
-    135deg,
-    #171a22,
-    #0e1015
-  );
+  background:
+    linear-gradient(
+      135deg,
+      #171a22,
+      #0e1015
+    );
 }
 
 .hero span {
@@ -103,6 +128,7 @@ main {
 
 .hero h1 {
   margin: 12px 0;
+
   font-size: 40px;
 }
 
@@ -110,9 +136,14 @@ main {
   color: var(--muted);
 }
 
+
+/* SECTION */
+
 .section-title {
   display: flex;
+
   align-items: center;
+
   gap: 15px;
 
   margin-bottom: 20px;
@@ -126,40 +157,64 @@ main {
   color: var(--muted);
 }
 
+
+/* GRID */
+
 .videos-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
   gap: 22px;
 }
+
+
+/* CARD */
 
 .video-card {
   overflow: hidden;
 
   background: var(--card);
-  border: 1px solid var(--border);
+
+  border:
+    1px solid var(--border);
+
   border-radius: 15px;
 
   cursor: pointer;
-  transition: .2s;
+
+  transition:
+    transform .2s ease,
+    border-color .2s ease;
 }
 
 .video-card:hover {
   transform: translateY(-5px);
-  border-color: #3a404d;
+
+  border-color: #414754;
 }
+
 
 .thumbnail {
   position: relative;
+
   width: 100%;
+
   aspect-ratio: 16 / 9;
+
   background: #050505;
 }
 
 .thumbnail img {
   width: 100%;
   height: 100%;
+
   object-fit: cover;
+
+  display: block;
 }
+
 
 .play-icon {
   position: absolute;
@@ -167,121 +222,193 @@ main {
   top: 50%;
   left: 50%;
 
-  transform: translate(-50%, -50%);
+  transform:
+    translate(-50%, -50%);
 
-  width: 52px;
-  height: 52px;
+  width: 55px;
+  height: 55px;
 
   display: flex;
+
   align-items: center;
   justify-content: center;
 
   border-radius: 50%;
-  background: rgba(0, 0, 0, .75);
+
+  background:
+    rgba(0, 0, 0, .75);
+
+  font-size: 20px;
 }
+
 
 .video-info {
   padding: 15px;
 }
 
 .video-info h3 {
-  margin: 0 0 8px;
+  margin:
+    0 0 8px;
+
   font-size: 17px;
+
+  line-height: 1.5;
 }
 
 .video-info p {
   margin: 0;
+
   color: var(--muted);
+
   font-size: 13px;
+
   line-height: 1.6;
 }
 
-/* صفحة المشاهدة */
+
+/* WATCH */
 
 .watch-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    320px;
+
   gap: 25px;
+
   align-items: start;
 }
 
+.watch-main {
+  min-width: 0;
+}
+
+
 .back-button {
   display: inline-block;
+
   margin-bottom: 15px;
+
+  color: var(--muted);
 }
+
+.back-button:hover {
+  color: white;
+}
+
 
 .player-box {
   width: 100%;
+
   aspect-ratio: 16 / 9;
 
   overflow: hidden;
 
   background: black;
-  border: 1px solid var(--border);
+
+  border:
+    1px solid var(--border);
+
   border-radius: 15px;
 }
 
 .player-box iframe {
   width: 100%;
   height: 100%;
+
   border: 0;
 }
 
+
+.watch-info {
+  padding-top: 20px;
+}
+
 .watch-info h1 {
+  margin: 0 0 12px;
+
   font-size: 27px;
+
   line-height: 1.5;
 }
 
 #videoDescription {
   color: var(--muted);
+
   line-height: 1.8;
 }
+
+
+/* LIKE */
 
 .like-button {
   margin-top: 15px;
 
   padding: 11px 18px;
 
-  border: 1px solid var(--border);
+  border:
+    1px solid var(--border);
+
   border-radius: 10px;
 
   background: #151820;
+
   color: white;
 
   cursor: pointer;
+}
+
+.like-button:hover {
+  background: #20242d;
 }
 
 .like-button.liked {
   border-color: var(--accent);
 }
 
-/* الاقتراحات */
+
+/* SIDEBAR */
 
 .sidebar {
   position: sticky;
+
   top: 95px;
 
   padding: 18px;
 
   background: var(--card);
-  border: 1px solid var(--border);
+
+  border:
+    1px solid var(--border);
+
   border-radius: 15px;
 }
 
 .sidebar h2 {
   margin-top: 0;
+
   font-size: 18px;
 }
 
+
 .related-card {
   display: flex;
+
   gap: 10px;
 
   padding: 10px 0;
 
-  border-bottom: 1px solid var(--border);
+  border-bottom:
+    1px solid var(--border);
+
   cursor: pointer;
 }
+
+.related-card:last-child {
+  border-bottom: 0;
+}
+
 
 .related-thumb {
   width: 105px;
@@ -290,32 +417,46 @@ main {
   flex-shrink: 0;
 
   overflow: hidden;
+
   border-radius: 7px;
+
   background: #050505;
 }
 
 .related-thumb img {
   width: 100%;
   height: 100%;
+
   object-fit: cover;
 }
 
+
 .related-title {
   font-size: 13px;
+
   line-height: 1.5;
 }
 
+
+/* FOOTER */
+
 footer {
   padding: 35px 20px;
+
   text-align: center;
 
-  border-top: 1px solid var(--border);
+  border-top:
+    1px solid var(--border);
+
   color: var(--muted);
 }
 
 footer strong {
   color: white;
 }
+
+
+/* RESPONSIVE */
 
 @media (max-width: 950px) {
 
@@ -326,18 +467,23 @@ footer strong {
   .sidebar {
     position: static;
   }
+
 }
+
 
 @media (max-width: 800px) {
 
   .videos-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
   }
 
   nav {
     display: none;
   }
+
 }
+
 
 @media (max-width: 560px) {
 
@@ -361,4 +507,9 @@ footer strong {
   .videos-grid {
     grid-template-columns: 1fr;
   }
+
+  .watch-info h1 {
+    font-size: 21px;
+  }
+
 }
