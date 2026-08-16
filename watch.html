@@ -1,73 +1,117 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>مشاهدة الفيديو | هيمنة العرب</title>
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>
+    مشاهدة الفيديو | هيمنة العرب
+  </title>
 
   <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
 <header class="header">
-  <a href="index.html" class="logo">هيمنة العرب</a>
 
-  <a href="index.html" class="back-top">
+  <a
+    href="index.html"
+    class="logo">
+    هيمنة العرب
+  </a>
+
+  <a
+    href="index.html"
+    class="back-top">
     ← الرئيسية
   </a>
+
 </header>
+
 
 <main class="watch-layout">
 
+
   <section class="watch-main">
 
-    <a href="index.html" class="back-button">
+    <a
+      href="index.html"
+      class="back-button">
       ← رجوع للفيديوهات
     </a>
+
 
     <div class="player-box">
 
       <iframe
         id="player"
-        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
+        allow="autoplay; fullscreen; picture-in-picture"
         allowfullscreen>
       </iframe>
 
     </div>
 
+
     <div class="watch-info">
 
       <h1 id="videoTitle">
-        جاري التحميل...
+        جاري تحميل الفيديو...
       </h1>
 
       <p id="videoDescription"></p>
 
-      <button id="likeButton" class="like-button">
+
+      <button
+        id="likeButton"
+        class="like-button">
+
         ❤️ إعجاب
-        <span id="likeCount">0</span>
+
+        <span id="likeCount">
+          0
+        </span>
+
       </button>
 
     </div>
 
   </section>
 
+
   <aside class="sidebar">
 
-    <h2>فيديوهات مترجمة</h2>
+    <h2>
+      فيديوهات مترجمة
+    </h2>
 
     <div id="relatedVideos"></div>
 
   </aside>
 
+
 </main>
 
+
 <footer>
-  <strong>هيمنة العرب</strong>
-  <p>© 2026 جميع الحقوق محفوظة</p>
+
+  <strong>
+    هيمنة العرب
+  </strong>
+
+  <p>
+    © 2026 جميع الحقوق محفوظة
+  </p>
+
 </footer>
+
 
 <script src="script.js"></script>
 
