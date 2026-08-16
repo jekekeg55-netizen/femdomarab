@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>هيمنة العرب | فيديوهات مترجمة</title>
-  <link rel="stylesheet" href="style.css">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>
+    هيمنة العرب | فيديوهات مترجمة
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css">
 </head>
+
 
 <body>
 
+
 <header class="header">
 
-  <a href="index.html" class="logo">
+  <a
+    href="index.html"
+    class="logo">
     هيمنة العرب
   </a>
 
+
   <nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="#videos">فيديوهات مترجمة</a>
+
+    <a href="index.html">
+      الرئيسية
+    </a>
+
+    <a href="#videos">
+      فيديوهات مترجمة
+    </a>
+
   </nav>
+
 
   <input
     id="searchInput"
@@ -29,37 +52,181 @@
 </header>
 
 
+
 <main>
+
 
   <section class="hero">
 
     <div>
-      <span>هيمنة العرب</span>
 
-      <h1>فيديوهات مترجمة</h1>
+      <span>
+        هيمنة العرب
+      </span>
+
+      <h1>
+        فيديوهات مترجمة
+      </h1>
 
       <p>
         شاهد أحدث الفيديوهات التعليمية والترفيهية.
       </p>
+
     </div>
 
   </section>
+
 
 
   <section id="videos">
 
     <div class="section-title">
 
-      <h2>أحدث الفيديوهات</h2>
+      <h2>
+        أحدث الفيديوهات
+      </h2>
 
-      <span id="videoCount"></span>
+      <span id="videoCount">
+        3 فيديوهات
+      </span>
 
     </div>
+
 
 
     <div
       id="videosGrid"
       class="videos-grid">
+
+
+      <!-- فيديو 1 -->
+
+      <article
+        class="video-card"
+        onclick="openVideo(1)">
+
+        <div class="thumbnail generated-thumbnail">
+
+          <div class="thumbnail-content">
+
+            <span class="thumbnail-brand">
+              هيمنة العرب
+            </span>
+
+            <span class="thumbnail-play">
+              ▶
+            </span>
+
+            <strong>
+              فيديو مترجم 1
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <div class="video-info">
+
+          <h3>
+            فيديو مترجم 1
+          </h3>
+
+          <p>
+            وصف الفيديو الأول.
+          </p>
+
+        </div>
+
+      </article>
+
+
+
+      <!-- فيديو 2 -->
+
+      <article
+        class="video-card"
+        onclick="openVideo(2)">
+
+        <div class="thumbnail generated-thumbnail">
+
+          <div class="thumbnail-content">
+
+            <span class="thumbnail-brand">
+              هيمنة العرب
+            </span>
+
+            <span class="thumbnail-play">
+              ▶
+            </span>
+
+            <strong>
+              فيديو مترجم 2
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <div class="video-info">
+
+          <h3>
+            فيديو مترجم 2
+          </h3>
+
+          <p>
+            وصف الفيديو الثاني.
+          </p>
+
+        </div>
+
+      </article>
+
+
+
+      <!-- فيديو 3 -->
+
+      <article
+        class="video-card"
+        onclick="openVideo(3)">
+
+        <div class="thumbnail generated-thumbnail">
+
+          <div class="thumbnail-content">
+
+            <span class="thumbnail-brand">
+              هيمنة العرب
+            </span>
+
+            <span class="thumbnail-play">
+              ▶
+            </span>
+
+            <strong>
+              فيديو مترجم 3
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <div class="video-info">
+
+          <h3>
+            فيديو مترجم 3
+          </h3>
+
+          <p>
+            وصف الفيديو الثالث.
+          </p>
+
+        </div>
+
+      </article>
+
+
     </div>
 
   </section>
@@ -67,9 +234,12 @@
 </main>
 
 
+
 <footer>
 
-  <strong>هيمنة العرب</strong>
+  <strong>
+    هيمنة العرب
+  </strong>
 
   <p>
     © 2026 جميع الحقوق محفوظة
@@ -78,7 +248,22 @@
 </footer>
 
 
+
+<script>
+
+function openVideo(id) {
+
+  window.location.href =
+    "./watch.html?id=" + id;
+
+}
+
+</script>
+
+
 <script src="script.js"></script>
 
+
 </body>
+
 </html>
