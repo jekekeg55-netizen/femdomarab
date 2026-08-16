@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎬 My Video Site</h1>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search videos..."
+        >
+    </header>
+
+    <main>
+        <section class="video-grid" id="videoGrid">
+
+            <div class="video-card" data-title="Video 1">
+                <img src="images/video1.jpg" alt="Video 1">
+
+                <h2>Video 1</h2>
+
+                <button onclick="playVideo('videos/video1.mp4', 'Video 1')">
+                    ▶ Play
+                </button>
+            </div>
+
+            <div class="video-card" data-title="Video 2">
+                <img src="images/video2.jpg" alt="Video 2">
+
+                <h2>Video 2</h2>
+
+                <button onclick="playVideo('videos/video2.mp4', 'Video 2')">
+                    ▶ Play
+                </button>
+            </div>
+
+            <div class="video-card" data-title="Video 3">
+                <img src="images/video3.jpg" alt="Video 3">
+
+                <h2>Video 3</h2>
+
+                <button onclick="playVideo('videos/video3.mp4', 'Video 3')">
+                    ▶ Play
+                </button>
+            </div>
+
+            <div class="video-card" data-title="Video 4">
+                <img src="images/video4.jpg" alt="Video 4">
+
+                <h2>Video 4</h2>
+
+                <button onclick="playVideo('videos/video4.mp4', 'Video 4')">
+                    ▶ Play
+                </button>
+            </div>
+
+        </section>
+
+        <section class="player-section" id="playerSection">
+
+            <h2 id="videoTitle">اختار فيديو</h2>
+
+            <video id="videoPlayer" controls>
+                Your browser does not support video.
+            </video>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
