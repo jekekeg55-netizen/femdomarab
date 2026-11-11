@@ -1,84 +1,260 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>هيمنة العرب | فيديوهات مترجمة</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femdom Arab - المحتوى الحصري</title>
+    <!-- خط Tajawal الواضح والأنيق -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Tajawal', sans-serif;
+        }
 
+        body {
+            background-color: #0b0f19;
+            color: #f1f5f9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* رأس الصفحة الفاخر */
+        header {
+            background-color: #111827;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #1f2937;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+        }
+
+        /* أزرار التواصل العلوية (X و تليجرام) */
+        .social-buttons {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .btn-social {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .x-btn {
+            background-color: #000000;
+            color: #ffffff;
+            border: 1px solid #374151;
+        }
+
+        .x-btn:hover {
+            background-color: #1f2937;
+        }
+
+        .telegram-btn {
+            background-color: #24a1de;
+            color: #ffffff;
+        }
+
+        .telegram-btn:hover {
+            background-color: #1b8ac4;
+        }
+
+        .btn-social svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        /* المحتوى الرئيسي */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* قسم الهوية البصرية */
+        .theme-banner {
+            width: 100%;
+            background: linear-gradient(135deg, #1e1b4b 0%, #311042 100%);
+            border: 1px solid #4c1d95;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 25px rgba(76, 29, 149, 0.2);
+        }
+
+        .theme-banner h2 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #f472b6;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .theme-banner p {
+            font-size: 0.95rem;
+            color: #cbd5e1;
+        }
+
+        /* حاوية الفيديو */
+        .video-wrapper {
+            width: 100%;
+            background-color: #111827;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+            margin-bottom: 25px;
+            border: 1px solid #1f2937;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            background-color: #000;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .video-details {
+            padding: 18px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .video-main-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .sub-tag {
+            background-color: #1f2937;
+            color: #38bdf8;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        /* تذييل الصفحة */
+        footer {
+            background-color: #111827;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            color: #6b7280;
+            border-top: 1px solid #1f2937;
+        }
+
+        footer a {
+            color: #9ca3af;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+
+        /* التجاوب مع الهواتف */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 12px;
+                padding: 15px;
+            }
+            .social-buttons {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
 <body>
 
-<header class="header">
+    <!-- رأس الصفحة -->
+    <header>
+        <div class="logo">Femdom Arab</div>
+        <div class="social-buttons">
+            <!-- قناة التليجرام -->
+            <a href="https://t.me/dominatrixmaroc" target="_blank" class="btn-social telegram-btn">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54-1.44.53-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.75 3.8-1.65 6.33-2.74 7.59-3.28 3.61-1.57 4.36-1.84 4.85-1.85.11 0 .37.03.54.17.14.12.18.28.2.45-.02.07-.02.13-.04.2z"/></svg>
+                قناة التليجرام
+            </a>
+            <!-- حساب X الخاص بك -->
+            <a href="https://x.com/arabmen12" target="_blank" class="btn-social x-btn">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                حساب X
+            </a>
+        </div>
+    </header>
 
-  <a href="index.html" class="logo">
-    هيمنة العرب
-  </a>
+    <!-- المحتوى الرئيسي -->
+    <main>
+        <!-- لافتة Femdom Arab -->
+        <div class="theme-banner">
+            <h2>Femdom Arab</h2>
+            <p>محتوى استثنائي حصري ومترجم بجودة عالية</p>
+        </div>
 
-  <nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="#videos">فيديوهات مترجمة</a>
-  </nav>
+        <!-- صندوق الفيديو -->
+        <div class="video-wrapper">
+            <div class="video-container">
+                <!-- استبدل YOUR_VIDEO_ID برمز الفيديو الخاص بك على يوتيوب -->
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID?cc_load_policy=1" allowfullscreen></iframe>
+            </div>
+            <div class="video-details">
+                <div class="video-main-title">الفيديو الحصري الكامل</div>
+                <div class="sub-tag">مترجم للعربية 🌐</div>
+            </div>
+        </div>
+    </main>
 
-  <input
-    id="searchInput"
-    type="search"
-    placeholder="ابحث عن فيديو..."
-  >
-
-</header>
-
-
-<main>
-
-  <section class="hero">
-
-    <div>
-      <span>هيمنة العرب</span>
-
-      <h1>فيديوهات مترجمة</h1>
-
-      <p>
-        شاهد أحدث الفيديوهات التعليمية والترفيهية.
-      </p>
-    </div>
-
-  </section>
-
-
-  <section id="videos">
-
-    <div class="section-title">
-
-      <h2>أحدث الفيديوهات</h2>
-
-      <span id="videoCount"></span>
-
-    </div>
-
-
-    <div
-      id="videosGrid"
-      class="videos-grid">
-    </div>
-
-  </section>
-
-</main>
-
-
-<footer>
-
-  <strong>هيمنة العرب</strong>
-
-  <p>
-    © 2026 جميع الحقوق محفوظة
-  </p>
-
-</footer>
-
-
-<script src="script.js"></script>
+    <!-- تذييل الصفحة -->
+    <footer>
+        <p>جميع الحقوق محفوظة © 2026 Femdom Arab</p>
+        <div style="margin-top: 8px;">
+            <a href="#">سياسة الخصوصية</a> | 
+            <a href="#">شروط الاستخدام</a>
+        </div>
+    </footer>
 
 </body>
 </html>
