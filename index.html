@@ -3,340 +3,199 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>FEMDOM ARAB — فيديوهات عربية حصرية مجانية</title>
-<meta name="description" content="هنا ستجد فيديوهات عربية حصرية مجانية. موقع مخصص للبالغين فقط (+18).">
+<title>Femdom Maroc — شاهد الفيديو</title>
+<meta name="description" content="Femdom Maroc — موقع مخصص للبالغين فقط (+18).">
 <meta name="robots" content="noindex, nofollow">
 <meta name="rating" content="adult">
-<meta name="theme-color" content="#0b0709">
+<meta name="theme-color" content="#0c0708">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Cinzel:wght@600;800&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================================
-   متغيرات الهوية البصرية — عدّل الألوان من هنا
+   1) متغيرات الهوية البصرية — عدّل الألوان من هنا
    ============================================================ */
 :root{
-  --bg:#0b0709;
-  --bg-2:#130c10;
-  --surface:#1a1015;
-  --surface-2:#241720;
+  --bg:#0c0708;
+  --bg-2:#140b0d;
+  --surface:#1b1013;
+  --surface-2:#26161a;
   --line:rgba(255,255,255,.08);
-  --text:#f4ece6;
-  --muted:#a89a98;
-  --crimson:#b3122f;
-  --crimson-2:#e11d48;
+  --text:#f6ede7;
+  --muted:#a99b97;
+  --red:#c1272d;          /* أحمر مغربي */
+  --red-2:#e23a40;
+  --green:#0a8a4f;        /* أخضر مغربي (لمسات فقط) */
   --gold:#d4af37;
   --gold-2:#f3d98b;
-  --radius:18px;
-  --shadow:0 20px 60px rgba(0,0,0,.55);
+  --radius:20px;
+  --shadow:0 24px 70px rgba(0,0,0,.6);
   --grad-gold:linear-gradient(135deg,#f3d98b 0%,#d4af37 45%,#9a7a1c 100%);
-  --grad-crimson:linear-gradient(135deg,#e11d48 0%,#b3122f 55%,#6d0a1c 100%);
+  --grad-red:linear-gradient(135deg,#e23a40 0%,#c1272d 55%,#6e1015 100%);
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth}
-body{
-  font-family:'Cairo',system-ui,sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  line-height:1.7;
-  min-height:100vh;
-  overflow-x:hidden;
-}
+body{font-family:'Cairo',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;overflow-x:hidden}
 body.locked{overflow:hidden}
 a{color:inherit;text-decoration:none}
 button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
 img{display:block;max-width:100%}
+.container{width:min(1100px,92%);margin-inline:auto}
 
 /* خلفية زخرفية */
 .bg-fx{position:fixed;inset:0;z-index:-1;pointer-events:none;
   background:
-   radial-gradient(900px 500px at 85% -10%,rgba(179,18,47,.28),transparent 60%),
-   radial-gradient(700px 500px at 0% 30%,rgba(212,175,55,.10),transparent 60%),
-   radial-gradient(800px 600px at 50% 110%,rgba(179,18,47,.18),transparent 60%),
-   var(--bg);
-}
-.bg-fx::after{content:"";position:absolute;inset:0;opacity:.05;
-  background-image:linear-gradient(var(--gold) 1px,transparent 1px),linear-gradient(90deg,var(--gold) 1px,transparent 1px);
-  background-size:60px 60px;
-  mask-image:radial-gradient(circle at 50% 30%,#000,transparent 70%);
-  -webkit-mask-image:radial-gradient(circle at 50% 30%,#000,transparent 70%);
-}
-
-.container{width:min(1200px,92%);margin-inline:auto}
+   radial-gradient(900px 520px at 90% -10%,rgba(193,39,45,.30),transparent 60%),
+   radial-gradient(700px 500px at -5% 35%,rgba(10,138,79,.10),transparent 60%),
+   radial-gradient(800px 600px at 50% 115%,rgba(193,39,45,.18),transparent 60%),var(--bg)}
+.bg-fx::after{content:"";position:absolute;inset:0;opacity:.06;
+  background-image:
+    linear-gradient(45deg,var(--gold) 1px,transparent 1px),
+    linear-gradient(-45deg,var(--gold) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:radial-gradient(circle at 50% 25%,#000,transparent 70%);
+  -webkit-mask-image:radial-gradient(circle at 50% 25%,#000,transparent 70%)}
 
 /* ============================================================
-   الهيدر
+   2) الهيدر
    ============================================================ */
-header.nav{
-  position:sticky;top:0;z-index:50;
-  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-  background:linear-gradient(to bottom,rgba(11,7,9,.92),rgba(11,7,9,.65));
-  border-bottom:1px solid var(--line);
-}
-.nav-in{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+header.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  background:linear-gradient(to bottom,rgba(12,7,8,.93),rgba(12,7,8,.65));border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0}
 .brand{display:flex;align-items:center;gap:12px}
-.brand-mark{
-  width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
-  background:var(--grad-crimson);
-  box-shadow:0 0 0 1px rgba(243,217,139,.5) inset,0 8px 24px rgba(179,18,47,.45);
-  position:relative;
-}
-.brand-mark svg{width:24px;height:24px}
-.brand-name{font-family:'Cinzel',serif;font-weight:800;letter-spacing:.14em;font-size:1.15rem;line-height:1}
+.brand-mark{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;background:var(--grad-red);
+  box-shadow:0 0 0 1px rgba(243,217,139,.55) inset,0 8px 26px rgba(193,39,45,.45)}
+.brand-mark svg{width:26px;height:26px}
+.brand-name{font-family:'Cinzel',serif;font-weight:800;letter-spacing:.12em;font-size:1.12rem;line-height:1}
 .brand-name b{background:var(--grad-gold);-webkit-background-clip:text;background-clip:text;color:transparent}
-.brand-sub{font-size:.68rem;color:var(--muted);letter-spacing:.08em;margin-top:4px}
-.nav-actions{display:flex;align-items:center;gap:10px}
-.badge18{
-  font-weight:900;font-size:.8rem;padding:6px 12px;border-radius:999px;
-  border:1px solid var(--gold);color:var(--gold-2);letter-spacing:.05em;
-}
+.brand-sub{font-size:.66rem;color:var(--muted);letter-spacing:.1em;margin-top:4px}
+.badge18{font-weight:900;font-size:.8rem;padding:6px 13px;border-radius:999px;border:1px solid var(--gold);color:var(--gold-2)}
 
 /* ============================================================
-   الأزرار
+   3) الأزرار
    ============================================================ */
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;gap:10px;
-  padding:13px 26px;border-radius:14px;font-weight:700;font-size:1rem;
-  transition:transform .25s,box-shadow .25s,filter .25s;
-  position:relative;overflow:hidden;
-}
-.btn:hover{transform:translateY(-2px)}
-.btn:active{transform:translateY(0)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 26px;border-radius:14px;
+  font-weight:700;font-size:1rem;transition:transform .25s,box-shadow .25s,opacity .25s;position:relative;overflow:hidden}
+.btn:hover:not(:disabled){transform:translateY(-2px)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn svg{width:20px;height:20px;fill:currentColor;flex:none}
 .btn-gold{background:var(--grad-gold);color:#1a1205;box-shadow:0 10px 30px rgba(212,175,55,.3)}
-.btn-gold:hover{box-shadow:0 14px 40px rgba(212,175,55,.45)}
+.btn-gold:hover:not(:disabled){box-shadow:0 14px 40px rgba(212,175,55,.45)}
+.btn-red{background:var(--grad-red);color:#fff;box-shadow:0 10px 32px rgba(193,39,45,.45)}
+.btn-red:hover:not(:disabled){box-shadow:0 14px 44px rgba(193,39,45,.6)}
 .btn-ghost{border:1px solid var(--line);background:rgba(255,255,255,.03)}
 .btn-ghost:hover{border-color:var(--gold);background:rgba(212,175,55,.07)}
-.btn-tg{
-  background:linear-gradient(135deg,#2AABEE,#229ED9 50%,#1b7fb5);color:#fff;
-  box-shadow:0 10px 30px rgba(34,158,217,.35);
-}
-.btn-tg:hover{box-shadow:0 14px 42px rgba(34,158,217,.55)}
-.btn-tg svg{width:22px;height:22px;flex:none}
-.btn-sm{padding:9px 18px;font-size:.9rem;border-radius:12px}
-.btn-tg::after{
-  content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;
-  background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent);
-  transform:skewX(-20deg);animation:shine 3.8s infinite;
-}
-@keyframes shine{0%,60%{left:-120%}100%{left:180%}}
+.btn-lg{padding:17px 42px;font-size:1.2rem;border-radius:16px}
 
 /* ============================================================
-   Hero
+   4) Hero
    ============================================================ */
-.hero{padding:clamp(48px,9vw,110px) 0 clamp(36px,6vw,70px);text-align:center;position:relative}
-.eyebrow{
-  display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:999px;
-  background:rgba(212,175,55,.08);border:1px solid rgba(212,175,55,.3);
-  color:var(--gold-2);font-size:.85rem;font-weight:600;margin-bottom:22px;
-}
-.eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--crimson-2);box-shadow:0 0 12px var(--crimson-2);animation:pulse 1.8s infinite}
+.hero{padding:clamp(36px,7vw,84px) 0 clamp(20px,4vw,40px);text-align:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:999px;
+  background:rgba(212,175,55,.08);border:1px solid rgba(212,175,55,.3);color:var(--gold-2);font-size:.85rem;font-weight:600;margin-bottom:20px}
+.eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--red-2);box-shadow:0 0 12px var(--red-2);animation:pulse 1.8s infinite}
 @keyframes pulse{50%{opacity:.35;transform:scale(.8)}}
-.hero-logo{
-  font-family:'Cinzel',serif;font-weight:800;line-height:1;
-  font-size:clamp(2.6rem,9vw,6.4rem);letter-spacing:.12em;margin-bottom:18px;
-  text-shadow:0 6px 40px rgba(179,18,47,.4);
-}
+.hero-logo{font-family:'Cinzel',serif;font-weight:800;line-height:1.05;font-size:clamp(2.3rem,8vw,5.4rem);letter-spacing:.1em;
+  text-shadow:0 6px 40px rgba(193,39,45,.4)}
 .hero-logo span{background:var(--grad-gold);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero-logo em{font-style:normal;color:var(--crimson-2)}
-.hero h1{
-  font-size:clamp(1.25rem,3.4vw,2.1rem);font-weight:700;max-width:760px;margin:0 auto 14px;
-}
-.hero h1 b{color:var(--gold-2)}
-.divider{display:flex;align-items:center;justify-content:center;gap:14px;margin:22px auto 28px;max-width:360px}
+.hero-logo em{font-style:normal;color:var(--red-2)}
+.divider{display:flex;align-items:center;justify-content:center;gap:14px;margin:20px auto 0;max-width:340px}
 .divider::before,.divider::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
-.divider svg{width:16px;height:16px;fill:var(--gold)}
-.hero p.lead{color:var(--muted);max-width:560px;margin:0 auto 30px;font-size:1.02rem}
-.hero-cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.divider svg{width:18px;height:18px;fill:var(--gold)}
 
 /* ============================================================
-   قسم الفيديوهات
+   5) منصة الفيديو (Stage)
    ============================================================ */
-section{padding:clamp(30px,5vw,60px) 0}
-.sec-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:30px;flex-wrap:wrap}
-.sec-title{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:900;position:relative;padding-inline-start:18px}
-.sec-title::before{content:"";position:absolute;inset-inline-start:0;top:8px;bottom:8px;width:5px;border-radius:5px;background:var(--grad-crimson)}
-.sec-sub{color:var(--muted);font-size:.95rem}
-.count-pill{font-size:.85rem;color:var(--gold-2);border:1px solid rgba(212,175,55,.3);padding:5px 14px;border-radius:999px;background:rgba(212,175,55,.06)}
-
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
-@media(max-width:1100px){.grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:820px){.grid{grid-template-columns:repeat(2,1fr);gap:16px}}
-@media(max-width:480px){.grid{grid-template-columns:1fr}}
-
-.card{
-  background:linear-gradient(180deg,var(--surface-2),var(--surface));
-  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
-  transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .3s,box-shadow .3s;
-  cursor:pointer;text-align:start;display:flex;flex-direction:column;
-  animation:rise .7s both;
-}
-.card:nth-child(2){animation-delay:.08s}.card:nth-child(3){animation-delay:.16s}.card:nth-child(4){animation-delay:.24s}
-@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
-.card:hover,.card:focus-visible{
-  transform:translateY(-8px);border-color:rgba(212,175,55,.55);
-  box-shadow:0 24px 50px rgba(0,0,0,.6),0 0 0 1px rgba(212,175,55,.25);outline:0;
-}
-.thumb{position:relative;aspect-ratio:16/10;overflow:hidden;background:#150b10}
-.thumb img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
-.card:hover .thumb img{transform:scale(1.08)}
-.thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(11,7,9,.85),transparent 55%)}
-.thumb-fallback{
-  position:absolute;inset:0;display:grid;place-items:center;
+.watch{padding:clamp(18px,3vw,36px) 0 clamp(30px,5vw,60px)}
+.stage{position:relative;aspect-ratio:16/9;border-radius:24px;overflow:hidden;background:#0a0506;
+  border:1px solid rgba(212,175,55,.3);box-shadow:var(--shadow),0 0 70px rgba(193,39,45,.15)}
+.cover{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;
   background:
-    radial-gradient(circle at 30% 20%,rgba(225,29,72,.35),transparent 55%),
-    radial-gradient(circle at 80% 90%,rgba(212,175,55,.2),transparent 50%),
-    linear-gradient(135deg,#2a0f19,#120a0e);
-  font-family:'Cinzel',serif;color:rgba(243,217,139,.25);font-size:2.2rem;letter-spacing:.2em;font-weight:800;
-}
-.play{
-  position:absolute;inset:0;margin:auto;width:62px;height:62px;border-radius:50%;z-index:2;
-  display:grid;place-items:center;background:rgba(11,7,9,.55);
-  border:1.5px solid var(--gold);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
-  transition:transform .3s,background .3s;
-}
-.play svg{width:24px;height:24px;fill:var(--gold-2);margin-inline-start:-3px;transform:scaleX(-1)}
-.card:hover .play{transform:scale(1.14);background:var(--crimson)}
-.card:hover .play svg{fill:#fff}
-.dur{
-  position:absolute;z-index:2;bottom:10px;inset-inline-start:10px;
-  background:rgba(0,0,0,.7);padding:2px 10px;border-radius:8px;font-size:.78rem;font-weight:600;
-}
-.tag{
-  position:absolute;z-index:2;top:10px;inset-inline-end:10px;
-  background:var(--grad-crimson);padding:2px 10px;border-radius:8px;font-size:.72rem;font-weight:700;
-}
-.card-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
-.card-title{font-weight:700;font-size:1.05rem;line-height:1.5}
-.card-desc{color:var(--muted);font-size:.85rem;line-height:1.6}
-.card-meta{margin-top:auto;padding-top:8px;display:flex;align-items:center;gap:8px;color:var(--gold-2);font-size:.82rem;font-weight:600}
-.card-meta svg{width:15px;height:15px;fill:currentColor}
+    radial-gradient(circle at 25% 20%,rgba(226,58,64,.38),transparent 55%),
+    radial-gradient(circle at 85% 90%,rgba(10,138,79,.18),transparent 50%),
+    linear-gradient(135deg,#2c1015,#0f0709)}
+.cover-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(10,5,6,.92),rgba(10,5,6,.25) 60%)}
+.cover-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:16px}
+.cover-title{font-family:'Cinzel',serif;font-weight:800;font-size:clamp(1.4rem,4.6vw,2.8rem);letter-spacing:.1em}
+.cover-title span{color:var(--gold-2)}
+.cover-note{color:#d6c8c3;font-size:.92rem;max-width:420px}
+.play-ring{width:92px;height:92px;border-radius:50%;display:grid;place-items:center;background:rgba(12,7,8,.55);
+  border:2px solid var(--gold);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);animation:ring 2.4s infinite}
+.play-ring svg{width:36px;height:36px;fill:var(--gold-2);transform:scaleX(-1);margin-inline-start:-4px}
+@keyframes ring{0%{box-shadow:0 0 0 0 rgba(212,175,55,.45)}70%,100%{box-shadow:0 0 0 24px rgba(212,175,55,0)}}
 
-.empty{
-  grid-column:1/-1;text-align:center;padding:50px;border:1px dashed var(--line);border-radius:var(--radius);color:var(--muted)
-}
+.meta{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:22px}
+.meta h2{font-size:clamp(1.2rem,3vw,1.7rem);font-weight:900}
+.meta p{color:var(--muted);font-size:.95rem}
+
+/* خطوات الإعلانات */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+@media(max-width:700px){.steps{grid-template-columns:1fr}}
+.step{background:linear-gradient(180deg,var(--surface-2),var(--surface));border:1px solid var(--line);border-radius:var(--radius);padding:20px;display:flex;gap:14px;align-items:flex-start}
+.step-n{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font-weight:900;background:var(--grad-gold);color:#1a1205}
+.step b{display:block;margin-bottom:2px}
+.step span{color:var(--muted);font-size:.88rem}
 
 /* ============================================================
-   قسم Telegram
+   6) نافذة الإعلانات
    ============================================================ */
-.tg-box{
-  position:relative;overflow:hidden;border-radius:26px;padding:clamp(30px,6vw,60px);
-  text-align:center;border:1px solid rgba(34,158,217,.35);
-  background:
-    radial-gradient(600px 300px at 50% 0%,rgba(42,171,238,.22),transparent 70%),
-    linear-gradient(160deg,#10202b,#0d141a 70%);
-  box-shadow:var(--shadow);
-}
-.tg-ico{
-  width:78px;height:78px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;
-  background:linear-gradient(135deg,#2AABEE,#1b7fb5);box-shadow:0 0 0 8px rgba(42,171,238,.12),0 14px 34px rgba(34,158,217,.45);
-}
-.tg-ico svg{width:38px;height:38px}
-.tg-box h2{font-size:clamp(1.4rem,3.4vw,2rem);font-weight:900;margin-bottom:8px}
-.tg-box p{color:#a9bdca;max-width:520px;margin:0 auto 26px}
-.btn-lg{padding:16px 38px;font-size:1.15rem;border-radius:16px}
-
-/* ============================================================
-   الفوتر
-   ============================================================ */
-footer{border-top:1px solid var(--line);margin-top:30px;padding:36px 0 46px;background:rgba(0,0,0,.25)}
-.foot{display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center}
-.foot .brand-name{font-size:1.3rem}
-.disclaimer{max-width:760px;color:var(--muted);font-size:.84rem;line-height:1.9}
-.disclaimer strong{color:var(--gold-2)}
-.copy{color:#6f6462;font-size:.78rem}
-.foot-links{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:.85rem;color:var(--muted)}
-.foot-links a:hover{color:var(--gold-2)}
-
-/* ============================================================
-   بوابة التحقق من العمر
-   ============================================================ */
-.gate{
-  position:fixed;inset:0;z-index:200;display:none;place-items:center;padding:20px;
-  background:
-    radial-gradient(700px 500px at 50% 0%,rgba(179,18,47,.35),transparent 65%),
-    rgba(5,3,4,.96);
-  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
-}
-.gate.show{display:grid}
-.gate-card{
-  width:min(480px,100%);text-align:center;padding:38px 28px;border-radius:26px;
-  background:linear-gradient(180deg,var(--surface-2),var(--bg-2));
-  border:1px solid rgba(212,175,55,.4);box-shadow:var(--shadow),0 0 80px rgba(179,18,47,.25);
-  animation:rise .6s both;
-}
-.gate-18{
-  width:92px;height:92px;margin:0 auto 20px;border-radius:50%;display:grid;place-items:center;
-  font-weight:900;font-size:2rem;font-family:'Cinzel',serif;
-  background:var(--grad-crimson);box-shadow:0 0 0 3px rgba(243,217,139,.55) inset,0 12px 40px rgba(179,18,47,.55);
-}
-.gate-card h2{font-size:1.5rem;font-weight:900;margin-bottom:10px}
-.gate-card p{color:var(--muted);font-size:.93rem;margin-bottom:24px}
-.gate-actions{display:flex;flex-direction:column;gap:10px}
-
-/* ============================================================
-   المشغل
-   ============================================================ */
-.modal{
-  position:fixed;inset:0;z-index:150;display:none;align-items:center;justify-content:center;padding:16px;
-  background:rgba(4,2,3,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-}
-.modal.open{display:flex;animation:fade .25s both}
+.adwall{position:fixed;inset:0;z-index:160;display:none;align-items:center;justify-content:center;padding:16px;
+  background:rgba(4,2,3,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.adwall.open{display:flex;animation:fade .25s both}
 @keyframes fade{from{opacity:0}to{opacity:1}}
-.modal-in{width:min(1040px,100%);max-height:100%;display:flex;flex-direction:column;gap:14px}
-.modal-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.modal-title{font-weight:700;font-size:1.1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.x{
-  width:42px;height:42px;border-radius:50%;flex:none;display:grid;place-items:center;
-  border:1px solid var(--line);background:rgba(255,255,255,.05);transition:.25s;
-}
-.x:hover{background:var(--crimson);border-color:var(--crimson)}
-.x svg{width:18px;height:18px;stroke:#fff;stroke-width:2.4;fill:none;stroke-linecap:round}
+.ad-card{width:min(640px,100%);max-height:100%;overflow:auto;border-radius:24px;padding:22px;
+  background:linear-gradient(180deg,var(--surface-2),var(--bg-2));border:1px solid rgba(212,175,55,.35);box-shadow:var(--shadow)}
+.ad-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+.ad-dots{display:flex;gap:8px;align-items:center}
+.dot{width:34px;height:6px;border-radius:6px;background:rgba(255,255,255,.14);transition:.3s}
+.dot.done{background:var(--gold)}
+.dot.now{background:var(--red-2)}
+.ad-count{font-size:.85rem;color:var(--gold-2);font-weight:700}
+.ad-x{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line);background:rgba(255,255,255,.05)}
+.ad-x:hover{background:var(--red);border-color:var(--red)}
+.ad-x svg{width:16px;height:16px;stroke:#fff;stroke-width:2.4;fill:none;stroke-linecap:round}
+.ad-label{font-size:.72rem;color:var(--muted);letter-spacing:.12em;text-align:center;margin-bottom:8px}
+.ad-slot{min-height:250px;display:grid;place-items:center;border-radius:16px;background:#0a0607;border:1px dashed rgba(255,255,255,.12);overflow:hidden;text-align:center}
+.ad-slot > *{max-width:100%}
+.ad-empty{padding:20px;color:var(--muted);font-size:.88rem;line-height:1.9}
+.ad-empty b{color:var(--gold-2);display:block;margin-bottom:4px}
+.ad-empty code{direction:ltr;display:inline-block;background:rgba(255,255,255,.06);padding:1px 8px;border-radius:6px;color:#ddd}
+.ad-bar{height:4px;border-radius:4px;background:rgba(255,255,255,.1);margin:16px 0;overflow:hidden}
+.ad-bar i{display:block;height:100%;width:0;background:var(--grad-gold);transition:width 1s linear}
+.ad-actions{display:flex;justify-content:center}
 
-.player{
-  position:relative;background:#000;border-radius:20px;overflow:hidden;aspect-ratio:16/9;
-  border:1px solid rgba(212,175,55,.25);box-shadow:0 30px 80px rgba(0,0,0,.8),0 0 60px rgba(179,18,47,.15);
-  user-select:none;-webkit-user-select:none;
-}
+/* ============================================================
+   7) المشغل
+   ============================================================ */
+.player{position:absolute;inset:0;background:#000;user-select:none;-webkit-user-select:none}
 .player video,.player iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000;object-fit:contain}
-.p-center{
-  position:absolute;inset:0;margin:auto;width:84px;height:84px;border-radius:50%;z-index:3;
-  display:grid;place-items:center;background:rgba(179,18,47,.85);border:2px solid var(--gold-2);
-  box-shadow:0 10px 40px rgba(179,18,47,.6);transition:.3s;
-}
+.p-center{position:absolute;inset:0;margin:auto;width:84px;height:84px;border-radius:50%;z-index:3;display:grid;place-items:center;
+  background:rgba(193,39,45,.88);border:2px solid var(--gold-2);box-shadow:0 10px 40px rgba(193,39,45,.6);transition:.3s}
 .p-center:hover{transform:scale(1.08)}
 .p-center svg{width:34px;height:34px;fill:#fff;transform:scaleX(-1);margin-inline-start:-4px}
 .player.playing .p-center{opacity:0;pointer-events:none;transform:scale(.7)}
-.p-loader{
-  position:absolute;inset:0;margin:auto;width:54px;height:54px;border-radius:50%;z-index:4;display:none;
-  border:4px solid rgba(255,255,255,.15);border-top-color:var(--gold);animation:spin .9s linear infinite;
-}
+.p-loader{position:absolute;inset:0;margin:auto;width:54px;height:54px;border-radius:50%;z-index:4;display:none;
+  border:4px solid rgba(255,255,255,.15);border-top-color:var(--gold);animation:spin .9s linear infinite}
 .player.loading .p-loader{display:block}
 @keyframes spin{to{transform:rotate(360deg)}}
-.p-error{
-  position:absolute;inset:0;z-index:5;display:none;flex-direction:column;align-items:center;justify-content:center;gap:10px;
-  background:rgba(8,4,6,.92);text-align:center;padding:20px;color:var(--muted)
-}
-.player.error .p-error{display:flex}
-.p-error b{color:var(--gold-2);font-size:1.1rem}
-
-.controls{
-  position:absolute;inset-inline:0;bottom:0;z-index:6;padding:34px 16px 12px;direction:ltr;
-  background:linear-gradient(to top,rgba(0,0,0,.92),transparent);
-  transition:opacity .35s;
-}
+.p-msg{position:absolute;inset:0;z-index:5;display:none;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  background:rgba(8,4,6,.94);text-align:center;padding:20px;color:var(--muted)}
+.player.error .p-msg{display:flex}
+.p-msg b{color:var(--gold-2);font-size:1.15rem}
+.controls{position:absolute;inset-inline:0;bottom:0;z-index:6;padding:34px 16px 12px;direction:ltr;
+  background:linear-gradient(to top,rgba(0,0,0,.92),transparent);transition:opacity .35s}
 .player.idle.playing .controls{opacity:0}
 .player.idle.playing{cursor:none}
 .seek{position:relative;height:18px;display:flex;align-items:center;cursor:pointer;touch-action:none}
 .seek-bar{position:relative;width:100%;height:5px;border-radius:5px;background:rgba(255,255,255,.2);transition:height .2s}
 .seek:hover .seek-bar{height:8px}
-.seek-buf,.seek-fill{position:absolute;left:0;top:0;bottom:0;border-radius:5px}
-.seek-buf{background:rgba(255,255,255,.28);width:0}
-.seek-fill{background:var(--grad-crimson);width:0}
-.seek-knob{
-  position:absolute;top:50%;width:15px;height:15px;border-radius:50%;background:var(--gold-2);
-  transform:translate(-50%,-50%) scale(0);transition:transform .2s;left:0;box-shadow:0 0 12px rgba(212,175,55,.8)
-}
+.seek-buf,.seek-fill{position:absolute;left:0;top:0;bottom:0;border-radius:5px;width:0}
+.seek-buf{background:rgba(255,255,255,.28)}
+.seek-fill{background:var(--grad-red)}
+.seek-knob{position:absolute;top:50%;left:0;width:15px;height:15px;border-radius:50%;background:var(--gold-2);
+  transform:translate(-50%,-50%) scale(0);transition:transform .2s;box-shadow:0 0 12px rgba(212,175,55,.8)}
 .seek:hover .seek-knob,.seeking .seek-knob{transform:translate(-50%,-50%) scale(1)}
 .c-row{display:flex;align-items:center;gap:6px;margin-top:6px}
 .c-btn{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;transition:background .2s}
@@ -345,22 +204,40 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:36px 0 46px;back
 .c-time{font-size:.82rem;font-variant-numeric:tabular-nums;color:#ddd;margin:0 8px;white-space:nowrap}
 .c-spacer{flex:1}
 .vol{display:flex;align-items:center;gap:4px}
-.vol input{
-  -webkit-appearance:none;appearance:none;width:80px;height:4px;border-radius:4px;outline:0;cursor:pointer;
-  background:linear-gradient(to right,var(--gold) var(--v,100%),rgba(255,255,255,.25) var(--v,100%));
-}
+.vol input{-webkit-appearance:none;appearance:none;width:80px;height:4px;border-radius:4px;outline:0;cursor:pointer;
+  background:linear-gradient(to right,var(--gold) var(--v,100%),rgba(255,255,255,.25) var(--v,100%))}
 .vol input::-webkit-slider-thumb{-webkit-appearance:none;width:13px;height:13px;border-radius:50%;background:var(--gold-2)}
 .vol input::-moz-range-thumb{width:13px;height:13px;border:0;border-radius:50%;background:var(--gold-2)}
 .speed{font-size:.8rem;font-weight:700;width:auto;padding:0 10px;color:#fff}
 @media(max-width:560px){
-  .vol input{display:none}
-  .c-btn{width:36px;height:36px}
-  .p-center{width:66px;height:66px}
-  .controls{padding:26px 10px 8px}
+  .vol input{display:none}.c-btn{width:36px;height:36px}.p-center{width:66px;height:66px}.controls{padding:26px 10px 8px}
+  .play-ring{width:72px;height:72px}.btn-lg{padding:14px 28px;font-size:1.05rem}.stage{border-radius:18px}
 }
-.modal-info{color:var(--muted);font-size:.9rem;padding-inline:4px}
 
-/* إمكانية الوصول */
+/* ============================================================
+   8) بوابة العمر + الفوتر
+   ============================================================ */
+.gate{position:fixed;inset:0;z-index:300;display:none;place-items:center;padding:20px;
+  background:radial-gradient(700px 500px at 50% 0%,rgba(193,39,45,.35),transparent 65%),rgba(5,3,4,.97);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.gate.show{display:grid}
+.gate-card{width:min(480px,100%);text-align:center;padding:38px 28px;border-radius:26px;
+  background:linear-gradient(180deg,var(--surface-2),var(--bg-2));border:1px solid rgba(212,175,55,.4);
+  box-shadow:var(--shadow),0 0 80px rgba(193,39,45,.25)}
+.gate-18{width:92px;height:92px;margin:0 auto 20px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:2rem;
+  font-family:'Cinzel',serif;background:var(--grad-red);box-shadow:0 0 0 3px rgba(243,217,139,.55) inset,0 12px 40px rgba(193,39,45,.55)}
+.gate-card h2{font-size:1.5rem;font-weight:900;margin-bottom:10px}
+.gate-card p{color:var(--muted);font-size:.93rem;margin-bottom:24px}
+.gate-actions{display:flex;flex-direction:column;gap:10px}
+
+footer{border-top:1px solid var(--line);padding:34px 0 44px;background:rgba(0,0,0,.25)}
+.foot{display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center}
+.disclaimer{max-width:760px;color:var(--muted);font-size:.84rem;line-height:1.9}
+.disclaimer strong{color:var(--gold-2)}
+.foot-links{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:.85rem;color:var(--muted)}
+.foot-links a:hover{color:var(--gold-2)}
+.copy{color:#6f6462;font-size:.78rem}
+
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -385,22 +262,17 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:36px 0 46px;back
 <!-- ============ الهيدر ============ -->
 <header class="nav">
   <div class="container nav-in">
-    <a href="#top" class="brand" aria-label="FEMDOM ARAB">
+    <a href="#top" class="brand" aria-label="Femdom Maroc">
       <div class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M3 18 5 7l4.5 4L12 4l2.5 7L19 7l2 11H3Z" fill="#f3d98b"/><rect x="3" y="19.5" width="18" height="2" rx="1" fill="#f3d98b"/></svg>
+        <!-- نجمة ثمانية (خاتم سليمان) -->
+        <svg viewBox="0 0 24 24"><path fill="#f3d98b" d="M12 1.5 14.6 5l4.2-.7-.7 4.2L21.600 12l-3.500 2.600.700 4.200-4.200-.700L12 22.500 9.400 19l-4.200.700.700-4.200L2.400 12l3.500-2.600-.7-4.200L9.400 5 12 1.500Z"/></svg>
       </div>
       <div>
-        <div class="brand-name">FEMDOM <b>ARAB</b></div>
-        <div class="brand-sub">EXCLUSIVE ARABIC VIDEOS</div>
+        <div class="brand-name">FEMDOM <b>MAROC</b></div>
+        <div class="brand-sub">EXCLUSIVE VIDEO</div>
       </div>
     </a>
-    <div class="nav-actions">
-      <span class="badge18">+18</span>
-      <a class="btn btn-tg btn-sm" data-telegram target="_blank" rel="noopener noreferrer">
-        <svg viewBox="0 0 24 24" fill="#fff"><path d="M9.78 15.9 9.4 20.3c.5 0 .72-.22.98-.48l2.35-2.25 4.87 3.57c.9.5 1.53.24 1.77-.83L22.56 4.9c.3-1.33-.48-1.85-1.35-1.53L2.36 10.6c-1.29.5-1.27 1.22-.22 1.55l4.84 1.5 11.25-7.08c.53-.35 1.01-.15.61.2L9.78 15.9Z"/></svg>
-        <span>انضم إلى تيلكرام</span>
-      </a>
-    </div>
+    <span class="badge18">+18</span>
   </div>
 </header>
 
@@ -408,127 +280,124 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:36px 0 46px;back
   <!-- ============ Hero ============ -->
   <div class="hero">
     <div class="container">
-      <div class="eyebrow"><i></i> محتوى حصري · مجاني · للبالغين فقط</div>
-      <div class="hero-logo"><span>FEMDOM</span> <em>ARAB</em></div>
-      <h1>هنا ستجد <b>فيديوهات عربية حصرية مجانية</b></h1>
+      <div class="eyebrow"><i></i> للبالغين فقط</div>
+      <div class="hero-logo"><span>FEMDOM</span> <em>MAROC</em></div>
       <div class="divider" aria-hidden="true">
         <svg viewBox="0 0 24 24"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6L12 2Z"/></svg>
-      </div>
-      <p class="lead">تجربة مشاهدة أنيقة وسريعة على جميع الأجهزة. اختر الفيديو واضغط للتشغيل مباشرة.</p>
-      <div class="hero-cta">
-        <a href="#videos" class="btn btn-gold btn-lg">شاهد الآن</a>
-        <a class="btn btn-tg btn-lg" data-telegram target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24" fill="#fff"><path d="M9.78 15.9 9.4 20.3c.5 0 .72-.22.98-.48l2.35-2.25 4.87 3.57c.9.5 1.53.24 1.77-.83L22.56 4.9c.3-1.33-.48-1.85-1.35-1.53L2.36 10.6c-1.29.5-1.27 1.22-.22 1.55l4.84 1.5 11.25-7.08c.53-.35 1.01-.15.61.2L9.78 15.9Z"/></svg>
-          <span>انضم إلى تيلكرام</span>
-        </a>
       </div>
     </div>
   </div>
 
-  <!-- ============ الفيديوهات ============ -->
-  <section id="videos">
+  <!-- ============ منصة المشاهدة ============ -->
+  <section class="watch" id="watch">
     <div class="container">
-      <div class="sec-head">
-        <div>
-          <h2 class="sec-title">أحدث الفيديوهات</h2>
-          <div class="sec-sub">اضغط على أي فيديو لبدء المشاهدة</div>
+      <div class="stage" id="stage">
+        <div class="cover" id="cover">
+          <div class="cover-in">
+            <div class="play-ring" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4Z"/></svg></div>
+            <div class="cover-title" id="cover-title"></div>
+            <button class="btn btn-red btn-lg" id="btn-watch">
+              <svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4Z"/></svg> مشاهدة الفيديو
+            </button>
+            <div class="cover-note" id="cover-note"></div>
+          </div>
         </div>
-        <span class="count-pill" id="count"></span>
       </div>
-      <div class="grid" id="grid"></div>
-    </div>
-  </section>
 
-  <!-- ============ Telegram ============ -->
-  <section id="telegram">
-    <div class="container">
-      <div class="tg-box">
-        <div class="tg-ico">
-          <svg viewBox="0 0 24 24" fill="#fff"><path d="M9.78 15.9 9.4 20.3c.5 0 .72-.22.98-.48l2.35-2.25 4.87 3.57c.9.5 1.53.24 1.77-.83L22.56 4.9c.3-1.33-.48-1.85-1.35-1.53L2.36 10.6c-1.29.5-1.27 1.22-.22 1.55l4.84 1.5 11.25-7.08c.53-.35 1.01-.15.61.2L9.78 15.9Z"/></svg>
+      <div class="meta">
+        <div>
+          <h2 id="v-title"></h2>
+          <p id="v-desc"></p>
         </div>
-        <h2>لا تفوّت أي جديد</h2>
-        <p>تابع قناتنا على تيلكرام لتصلك الفيديوهات الجديدة أولاً بأول.</p>
-        <a class="btn btn-tg btn-lg" data-telegram target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24" fill="#fff"><path d="M9.78 15.9 9.4 20.3c.5 0 .72-.22.98-.48l2.35-2.25 4.87 3.57c.9.5 1.53.24 1.77-.83L22.56 4.9c.3-1.33-.48-1.85-1.35-1.53L2.36 10.6c-1.29.5-1.27 1.22-.22 1.55l4.84 1.5 11.25-7.08c.53-.35 1.01-.15.61.2L9.78 15.9Z"/></svg>
-          <span>انضم إلى تيلكرام</span>
-        </a>
+      </div>
+
+      <div class="steps" aria-label="طريقة المشاهدة">
+        <div class="step"><div class="step-n">1</div><div><b>اضغط على الزر</b><span>اضغط «مشاهدة الفيديو» للبدء.</span></div></div>
+        <div class="step"><div class="step-n">2</div><div><b>3 إعلانات قصيرة</b><span>تُعرض إعلانات متتالية، ولا يُطلب منك النقر عليها.</span></div></div>
+        <div class="step"><div class="step-n">3</div><div><b>استمتع بالفيديو</b><span>بعد انتهاء الإعلانات يظهر الفيديو مباشرة.</span></div></div>
       </div>
     </div>
   </section>
 </main>
 
-<!-- ============ الفوتر ============ -->
-<footer>
-  <div class="container foot">
-    <div class="brand-name">FEMDOM <b>ARAB</b></div>
-    <p class="disclaimer">
-      <strong>تنبيه (+18):</strong> هذا الموقع مخصص للبالغين فقط. جميع من يظهرون في المحتوى بالغون وقد أعطوا موافقتهم الصريحة على التصوير والنشر. الموقع لا يستضيف أي ملفات فيديو، وإنما يعرض روابط لمحتوى مستضاف لدى جهات خارجية.
-      إذا كنت تملك حقوقاً في أي محتوى أو ترغب في إزالته، يرجى التواصل معنا وسنستجيب بأسرع وقت.
-    </p>
-    <div class="foot-links">
-      <a href="#" data-contact>طلب إزالة محتوى</a>
-      <a href="#videos">الفيديوهات</a>
-      <a data-telegram target="_blank" rel="noopener noreferrer">تيلكرام</a>
-    </div>
-    <div class="copy">© <span id="year"></span> FEMDOM ARAB — جميع الحقوق محفوظة</div>
-  </div>
-</footer>
-
-<!-- ============ المشغل ============ -->
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title">
-  <div class="modal-in">
-    <div class="modal-top">
-      <div class="modal-title" id="m-title"></div>
-      <button class="x" id="m-close" aria-label="إغلاق">
+<!-- ============ نافذة الإعلانات ============ -->
+<div class="adwall" id="adwall" role="dialog" aria-modal="true" aria-label="الإعلانات">
+  <div class="ad-card">
+    <div class="ad-top">
+      <div class="ad-dots" id="ad-dots" aria-hidden="true"></div>
+      <div class="ad-count" id="ad-count"></div>
+      <button class="ad-x" id="ad-cancel" aria-label="إلغاء">
         <svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></svg>
       </button>
     </div>
-    <div class="player" id="player"></div>
-    <div class="modal-info" id="m-info"></div>
+    <div class="ad-label" id="ad-label">إعلان</div>
+    <div class="ad-slot" id="ad-slot"></div>
+    <div class="ad-bar" aria-hidden="true"><i id="ad-bar"></i></div>
+    <div class="ad-actions">
+      <button class="btn btn-gold" id="ad-next" disabled>متابعة</button>
+    </div>
   </div>
 </div>
 
+<!-- ============ الفوتر ============ -->
+<footer>
+  <div class="container foot">
+    <div class="brand-name">FEMDOM <b>MAROC</b></div>
+    <p class="disclaimer">
+      <strong>تنبيه (+18):</strong> هذا الموقع مخصص للبالغين فقط. جميع من يظهرون في المحتوى بالغون وقد أعطوا موافقتهم الصريحة على التصوير والنشر. الموقع لا يستضيف أي ملفات فيديو، وإنما يعرض محتوى مستضافاً لدى جهة خارجية.
+      لطلب إزالة أي محتوى يرجى التواصل معنا وسنستجيب بأسرع وقت.
+    </p>
+    <div class="foot-links"><a href="#" data-contact>طلب إزالة محتوى</a></div>
+    <div class="copy">© <span id="year"></span> Femdom Maroc — جميع الحقوق محفوظة</div>
+  </div>
+</footer>
+
 <script>
 /* ===================================================================
-   ⚙️  إعدادات الموقع — هنا فقط تعدّل كل شيء
+   ⚙️  إعدادات الموقع — كل التعديلات من هنا فقط
    =================================================================== */
 const CONFIG = {
 
-  /* رابط قناة/مجموعة تيلكرام (سأرسله لك لاحقاً، ضعه هنا) */
-  telegramUrl: "https://t.me/YOUR_CHANNEL",
+  /* ---------- الفيديو ---------- */
+  video: {
+    title: "Femdom Maroc",
+    description: "",          /* وصف اختياري يظهر تحت المشغل */
+    poster: "",               /* رابط صورة الغلاف (اختياري) */
 
-  /* بريد أو رابط التواصل لطلبات الإزالة (اختياري) */
-  contactUrl: "mailto:contact@example.com",
+    /* ضع رابط الفيديو الحقيقي هنا. إذا تُرك فارغاً، تظهر رسالة «الفيديو غير مضاف» بعد الإعلانات.
+       type:
+         "video" = رابط مباشر mp4 / webm  (يعمل بالمشغل المخصص)
+         "embed" = رابط تضمين iframe (مثل Bunny: https://iframe.mediadelivery.net/embed/LIB_ID/VIDEO_ID)  */
+    src: "",
+    type: "embed"
+  },
 
-  /* رابط الخروج عند رفض بوابة العمر */
-  exitUrl: "https://www.google.com",
+  /* ---------- الإعلانات ----------
+     المواضع الثلاثة تُعرض بالتتابع قبل الفيديو.
+     html    : ضع هنا كود الإعلان الحقيقي من شبكتك الإعلانية (يدعم <script> و <iframe> و <ins>...).
+     seconds : مدة بقاء الإعلان قبل تفعيل زر «متابعة».
+     لا يوجد أي نقر إجباري: الزائر لا يُطلب منه الضغط على الإعلان.
+     نصيحة: استعمل إعلانات بانر/عرض عادية، وتجنّب صيغ النوافذ المنبثقة (Popup/Popunder) لأنها تفرض نقرات.  */
+  ads: {
+    /* false = الفيديو لا يظهر قبل المرور على المواضع الثلاثة، حتى الفارغة منها (مساحة فارغة تُعرض مع عدّاد).
+       true  = تُتخطى المواضع الفارغة (التي لم يوضع فيها كود إعلان). */
+    skipEmptySlots: false,
 
-  /* الفيديوهات — عدّل الروابط من هنا
-     type:
-       "video"  = رابط مباشر لملف mp4 / webm
-       "embed"  = رابط تضمين (iframe) من مشغل خارجي
-     thumb: رابط الصورة المصغرة (اتركه فارغاً "" لعرض تصميم بديل أنيق)
-  */
-  videos: [
-    {
-      title: "الفيديو الأول",
-      description: "وصف مختصر للفيديو الأول.",
-      duration: "",
-      thumb: "https://vz-05a47d04-98d.b-cdn.net/115a9c19-b357-43d1-8647-e1e0d15552dd/thumbnail.jpg",
-      src: "https://iframe.mediadelivery.net/embed/807602/115a9c19-b357-43d1-8647-e1e0d15552dd?autoplay=false&preload=true",
-      type: "embed",
-      tag: "جديد"
-    },
-    {
-      title: "الفيديو الثاني",
-      description: "وصف مختصر للفيديو الثاني.",
-      duration: "",
-      thumb: "https://vz-05a47d04-98d.b-cdn.net/42980d7f-9504-4c52-a3de-6e21239d9243/thumbnail.jpg",
-      src: "https://iframe.mediadelivery.net/embed/807602/42980d7f-9504-4c52-a3de-6e21239d9243?autoplay=false&preload=true",
-      type: "embed",
-      tag: ""
-    }
-  ]
+    slots: [
+      { label: "إعلان 1", seconds: 8,
+        html: `<!-- ضع كود الإعلان الأول هنا -->` },
+
+      { label: "إعلان 2", seconds: 8,
+        html: `<!-- ضع كود الإعلان الثاني هنا -->` },
+
+      { label: "إعلان 3", seconds: 8,
+        html: `<!-- ضع كود الإعلان الثالث هنا -->` }
+    ]
+  },
+
+  /* ---------- أخرى ---------- */
+  contactUrl: "mailto:contact@example.com",   /* بريد/رابط طلبات الإزالة */
+  exitUrl: "https://www.google.com"           /* رابط الخروج عند رفض بوابة العمر */
 };
 
 /* ===================================================================
@@ -539,54 +408,110 @@ const CONFIG = {
   const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const safeUrl = u => { try{ const x=new URL(u,location.href); return /^(https?:|mailto:)$/.test(x.protocol)?x.href:"#"; }catch(e){ return "#"; } };
 
-  /* السنة + روابط تيلكرام والتواصل */
+  /* ---------- نصوص عامة ---------- */
+  const V = CONFIG.video;
   $("#year").textContent = new Date().getFullYear();
-  document.querySelectorAll("[data-telegram]").forEach(a=>a.href = safeUrl(CONFIG.telegramUrl));
+  $("#cover-title").innerHTML = "FEMDOM <span>MAROC</span>";
+  $("#cover-note").textContent = "ستظهر 3 إعلانات قصيرة قبل بدء الفيديو";
+  $("#v-title").textContent = V.title;
+  $("#v-desc").textContent = V.description || "";
   document.querySelectorAll("[data-contact]").forEach(a=>a.href = safeUrl(CONFIG.contactUrl));
+  if(V.poster){
+    const im = new Image(); im.className="cover-img"; im.alt=V.title; im.referrerPolicy="no-referrer";
+    im.onload = ()=>$("#cover").prepend(im); im.src = V.poster;
+  }
 
   /* ---------- بوابة العمر ---------- */
-  const gate = $("#gate"), KEY = "fa_age_ok";
-  let ok = false;
-  try{ ok = localStorage.getItem(KEY)==="1"; }catch(e){}
+  const gate = $("#gate"), KEY = "fm_age_ok";
+  let ok = false; try{ ok = localStorage.getItem(KEY)==="1"; }catch(e){}
   if(!ok){ gate.classList.add("show"); document.body.classList.add("locked"); }
-  $("#gate-yes").onclick = ()=>{
-    try{ localStorage.setItem(KEY,"1"); }catch(e){}
-    gate.classList.remove("show"); document.body.classList.remove("locked");
-  };
+  $("#gate-yes").onclick = ()=>{ try{localStorage.setItem(KEY,"1");}catch(e){}
+    gate.classList.remove("show"); document.body.classList.remove("locked"); };
   $("#gate-no").onclick = ()=>{ location.href = safeUrl(CONFIG.exitUrl); };
 
-  /* ---------- بناء الشبكة ---------- */
-  const grid = $("#grid");
-  const vids = CONFIG.videos || [];
-  $("#count").textContent = vids.length + " فيديو";
-  if(!vids.length){ grid.innerHTML = '<div class="empty">لا توجد فيديوهات حالياً.</div>'; }
+  /* ===============================================================
+     نظام الإعلانات: 3 مواضع متتالية → ثم الفيديو
+     =============================================================== */
+  const wall = $("#adwall"), slotEl = $("#ad-slot"), dotsEl = $("#ad-dots"),
+        countEl = $("#ad-count"), labelEl = $("#ad-label"), barEl = $("#ad-bar"), nextBtn = $("#ad-next");
+  let queue = [], idx = 0, timer = null, adsDone = false;
 
-  vids.forEach((v,i)=>{
-    const el = document.createElement("article");
-    el.className = "card"; el.tabIndex = 0; el.setAttribute("role","button");
-    el.setAttribute("aria-label","تشغيل: "+v.title);
-    el.innerHTML = `
-      <div class="thumb">
-        <div class="thumb-fallback" aria-hidden="true">FA</div>
-        ${v.thumb ? `<img src="${esc(v.thumb)}" alt="${esc(v.title)}" loading="lazy" referrerpolicy="no-referrer">` : ""}
-        ${v.tag ? `<span class="tag">${esc(v.tag)}</span>` : ""}
-        <span class="play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4Z"/></svg></span>
-        ${v.duration ? `<span class="dur">${esc(v.duration)}</span>` : ""}
-      </div>
-      <div class="card-body">
-        <h3 class="card-title">${esc(v.title)}</h3>
-        <p class="card-desc">${esc(v.description||"")}</p>
-        <div class="card-meta"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4Z"/></svg> شاهد الآن</div>
-      </div>`;
-    const img = el.querySelector("img");
-    if(img) img.onerror = ()=>img.remove();
-    el.onclick = ()=>openPlayer(i);
-    el.onkeydown = e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); openPlayer(i);} };
-    grid.appendChild(el);
-  });
+  /* يحقن كود الإعلان ويجعل وسوم <script> تعمل فعلياً */
+  function injectAd(container, html){
+    container.innerHTML = "";
+    const tpl = document.createElement("template");
+    tpl.innerHTML = html;
+    tpl.content.querySelectorAll("script").forEach(old=>{
+      const s = document.createElement("script");
+      [...old.attributes].forEach(a=>s.setAttribute(a.name,a.value));
+      s.text = old.textContent; old.replaceWith(s);
+    });
+    container.appendChild(tpl.content);
+  }
+  const hasCode = h => !!String(h||"").replace(/<!--[\s\S]*?-->/g,"").trim();
 
-  /* ---------- المشغل ---------- */
-  const modal = $("#modal"), player = $("#player");
+  function startAds(){
+    if(adsDone){ showVideo(); return; }
+    const slots = CONFIG.ads.slots.slice(0,3);
+    queue = slots.filter(s=> hasCode(s.html) || !CONFIG.ads.skipEmptySlots);
+    if(!queue.length){ adsDone = true; showVideo(); return; }
+    idx = 0;
+    wall.classList.add("open"); document.body.classList.add("locked");
+    renderAd();
+  }
+
+  function renderAd(){
+    clearInterval(timer);
+    const s = queue[idx], total = queue.length;
+    dotsEl.innerHTML = queue.map((_,i)=>`<span class="dot ${i<idx?"done":i===idx?"now":""}"></span>`).join("");
+    labelEl.textContent = (s.label || "إعلان") + " — " + (idx+1) + " / " + total;
+
+    if(hasCode(s.html)){
+      injectAd(slotEl, s.html);
+    }else{
+      slotEl.innerHTML = `<div class="ad-empty"><b>مساحة إعلانية فارغة</b>ضع كود الإعلان الحقيقي في <code>CONFIG.ads.slots[${idx}].html</code></div>`;
+    }
+
+    let left = Math.max(1, +s.seconds || 8);
+    const full = left;
+    nextBtn.disabled = true;
+    nextBtn.textContent = idx === total-1 ? "شاهد الفيديو" : "متابعة";
+    barEl.style.transition = "none"; barEl.style.width = "0%";
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{ barEl.style.transition = "width 1s linear"; }));
+    countEl.textContent = "يمكنك المتابعة بعد " + left + " ث";
+
+    /* العدّاد لا يتقدم إلا والصفحة ظاهرة، حتى يُعرض الإعلان فعلاً */
+    timer = setInterval(()=>{
+      if(document.hidden) return;
+      left--;
+      barEl.style.width = ((full-left)/full*100) + "%";
+      if(left > 0){ countEl.textContent = "يمكنك المتابعة بعد " + left + " ث"; }
+      else{
+        clearInterval(timer);
+        countEl.textContent = "تم ✓";
+        nextBtn.disabled = false;
+      }
+    },1000);
+  }
+
+  nextBtn.onclick = ()=>{
+    if(nextBtn.disabled) return;
+    idx++;
+    if(idx >= queue.length){ closeAds(); adsDone = true; showVideo(); }
+    else renderAd();
+  };
+  $("#ad-cancel").onclick = closeAds;
+  function closeAds(){
+    clearInterval(timer);
+    slotEl.innerHTML = "";
+    wall.classList.remove("open"); document.body.classList.remove("locked");
+  }
+  $("#btn-watch").onclick = startAds;
+
+  /* ===============================================================
+     المشغل (لا يُنشأ إلا بعد إكمال الإعلانات)
+     =============================================================== */
+  const stage = $("#stage");
   const I = {
     play:'<svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4Z"/></svg>',
     pause:'<svg viewBox="0 0 24 24"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>',
@@ -596,36 +521,35 @@ const CONFIG = {
     back:'<svg viewBox="0 0 24 24"><path d="M12 5V2L7 6.5 12 11V8a5 5 0 1 1-5 5H5a7 7 0 1 0 7-8Z"/></svg>',
     fwd:'<svg viewBox="0 0 24 24"><path d="M12 5V2l5 4.5L12 11V8a5 5 0 1 0 5 5h2a7 7 0 1 1-7-8Z"/></svg>'
   };
-  let vEl=null, idleT=null, cleanup=[];
+  const fmt = t=>{ if(!isFinite(t)) return "0:00"; t=Math.floor(t);
+    const h=Math.floor(t/3600), m=Math.floor(t%3600/60), s=t%60;
+    return (h?h+":"+String(m).padStart(2,"0"):m)+":"+String(s).padStart(2,"0"); };
 
-  const fmt = t=>{
-    if(!isFinite(t)) return "0:00";
-    t=Math.floor(t); const h=Math.floor(t/3600), m=Math.floor(t%3600/60), s=t%60;
-    return (h?h+":"+String(m).padStart(2,"0"):m)+":"+String(s).padStart(2,"0");
-  };
+  function showVideo(){
+    if(!adsDone) return;               /* حماية: لا فيديو قبل الإعلانات */
+    closeAds();
+    stage.innerHTML = '<div class="player" id="player"></div>';
+    const player = $("#player");
 
-  function openPlayer(i){
-    const v = vids[i]; if(!v) return;
-    $("#m-title").textContent = v.title;
-    $("#m-info").textContent = v.description || "";
-    modal.classList.add("open"); document.body.classList.add("locked");
-    player.className = "player"; player.innerHTML = "";
-
-    if(v.type === "embed"){
+    if(!V.src){
+      player.classList.add("error");
+      player.innerHTML = '<div class="p-msg"><b>الفيديو غير مضاف بعد</b><span>ضع رابط الفيديو الحقيقي في <code style="direction:ltr;display:inline-block">CONFIG.video.src</code></span></div>';
+      return;
+    }
+    if(V.type === "embed"){
       const f = document.createElement("iframe");
-      f.src = safeUrl(v.src); f.allow = "autoplay; fullscreen; picture-in-picture"; f.allowFullscreen = true;
+      f.src = safeUrl(V.src); f.allow = "autoplay; fullscreen; picture-in-picture"; f.allowFullscreen = true;
       player.appendChild(f); return;
     }
-    buildVideo(v);
-    $("#m-close").focus();
+    buildVideo(player);
   }
 
-  function buildVideo(v){
+  function buildVideo(player){
     player.innerHTML = `
-      <video playsinline preload="metadata" ${v.thumb?`poster="${esc(v.thumb)}"`:""}></video>
+      <video playsinline preload="metadata" ${V.poster?`poster="${esc(V.poster)}"`:""}></video>
       <button class="p-center" aria-label="تشغيل">${I.play}</button>
       <div class="p-loader"></div>
-      <div class="p-error"><b>تعذّر تشغيل الفيديو</b><span>تحقق من رابط الفيديو أو حاول لاحقاً.</span></div>
+      <div class="p-msg"><b>تعذّر تشغيل الفيديو</b><span>تحقق من رابط الفيديو أو حاول لاحقاً.</span></div>
       <div class="controls">
         <div class="seek" id="seek"><div class="seek-bar"><div class="seek-buf"></div><div class="seek-fill"></div><div class="seek-knob"></div></div></div>
         <div class="c-row">
@@ -639,98 +563,70 @@ const CONFIG = {
           <button class="c-btn" id="b-fs" aria-label="ملء الشاشة">${I.fs}</button>
         </div>
       </div>`;
-    vEl = $("video",player);
-    vEl.src = safeUrl(v.src);
+    const v = $("video",player);
+    v.src = safeUrl(V.src);
+    const q = s=>$(s,player);
+    const bPlay=q("#b-play"), center=q(".p-center"), fill=q(".seek-fill"), buf=q(".seek-buf"),
+          knob=q(".seek-knob"), seek=q("#seek"), time=q("#time"), vol=q("#vol"), bMute=q("#b-mute");
 
-    const $p = s=>$(s,player);
-    const bPlay=$p("#b-play"), center=$p(".p-center"), fill=$p(".seek-fill"), buf=$p(".seek-buf"),
-          knob=$p(".seek-knob"), seek=$p("#seek"), time=$p("#time"), vol=$p("#vol"), bMute=$p("#b-mute");
-
-    const toggle = ()=>{ vEl.paused ? vEl.play().catch(()=>{}) : vEl.pause(); };
-    bPlay.onclick = center.onclick = toggle;
-    vEl.onclick = toggle;
-    vEl.ondblclick = ()=>fs();
-
-    vEl.onplay = ()=>{ player.classList.add("playing"); bPlay.innerHTML=I.pause; };
-    vEl.onpause = ()=>{ player.classList.remove("playing"); bPlay.innerHTML=I.play; };
-    vEl.onwaiting = ()=>player.classList.add("loading");
-    vEl.oncanplay = vEl.onplaying = ()=>player.classList.remove("loading");
-    vEl.onerror = ()=>{ player.classList.remove("loading"); player.classList.add("error"); };
-    vEl.onended = ()=>{ player.classList.remove("playing"); bPlay.innerHTML=I.play; };
-
-    vEl.ontimeupdate = ()=>{
-      const d=vEl.duration||0, c=vEl.currentTime, p = d? c/d*100 : 0;
-      fill.style.width = p+"%"; knob.style.left = p+"%";
-      time.textContent = fmt(c)+" / "+fmt(d);
+    const toggle = ()=>{ v.paused ? v.play().catch(()=>{}) : v.pause(); };
+    bPlay.onclick = center.onclick = v.onclick = toggle;
+    v.ondblclick = ()=>fs();
+    v.onplay = ()=>{ player.classList.add("playing"); bPlay.innerHTML=I.pause; };
+    v.onpause = v.onended = ()=>{ player.classList.remove("playing"); bPlay.innerHTML=I.play; };
+    v.onwaiting = ()=>player.classList.add("loading");
+    v.oncanplay = v.onplaying = ()=>player.classList.remove("loading");
+    v.onerror = ()=>{ player.classList.remove("loading"); player.classList.add("error"); };
+    v.ontimeupdate = ()=>{
+      const d=v.duration||0, c=v.currentTime, p=d?c/d*100:0;
+      fill.style.width=p+"%"; knob.style.left=p+"%"; time.textContent=fmt(c)+" / "+fmt(d);
     };
-    vEl.onprogress = ()=>{
-      try{ const d=vEl.duration; if(d && vEl.buffered.length) buf.style.width = (vEl.buffered.end(vEl.buffered.length-1)/d*100)+"%"; }catch(e){}
-    };
-    vEl.onloadedmetadata = vEl.ontimeupdate;
+    v.onloadedmetadata = v.ontimeupdate;
+    v.onprogress = ()=>{ try{ const d=v.duration; if(d&&v.buffered.length) buf.style.width=(v.buffered.end(v.buffered.length-1)/d*100)+"%"; }catch(e){} };
 
     /* شريط التقدّم */
-    const seekTo = e=>{
-      const r = seek.getBoundingClientRect();
-      const x = (e.touches?e.touches[0].clientX:e.clientX) - r.left;
-      const p = Math.min(1,Math.max(0,x/r.width));
-      if(vEl.duration) vEl.currentTime = p*vEl.duration;
-    };
-    let dragging=false;
-    seek.addEventListener("pointerdown",e=>{ dragging=true; seek.classList.add("seeking"); seek.setPointerCapture(e.pointerId); seekTo(e); });
-    seek.addEventListener("pointermove",e=>{ if(dragging) seekTo(e); });
-    seek.addEventListener("pointerup",e=>{ dragging=false; seek.classList.remove("seeking"); });
+    const seekTo = e=>{ const r=seek.getBoundingClientRect(); const p=Math.min(1,Math.max(0,(e.clientX-r.left)/r.width)); if(v.duration) v.currentTime=p*v.duration; };
+    let drag=false;
+    seek.addEventListener("pointerdown",e=>{drag=true;seek.classList.add("seeking");seek.setPointerCapture(e.pointerId);seekTo(e);});
+    seek.addEventListener("pointermove",e=>{if(drag)seekTo(e);});
+    seek.addEventListener("pointerup",()=>{drag=false;seek.classList.remove("seeking");});
 
     /* الصوت */
-    const setVolBg = ()=>vol.style.setProperty("--v",(vEl.muted?0:vEl.volume*100)+"%");
-    vol.oninput = ()=>{ vEl.volume=+vol.value; vEl.muted = vEl.volume===0; };
-    vEl.onvolumechange = ()=>{ bMute.innerHTML = (vEl.muted||vEl.volume===0)?I.mute:I.vol; setVolBg(); };
-    bMute.onclick = ()=>{ vEl.muted=!vEl.muted; vol.value = vEl.muted?0:(vEl.volume||1); };
-    setVolBg();
+    const setVol=()=>vol.style.setProperty("--v",(v.muted?0:v.volume*100)+"%");
+    vol.oninput=()=>{v.volume=+vol.value;v.muted=v.volume===0;};
+    v.onvolumechange=()=>{bMute.innerHTML=(v.muted||v.volume===0)?I.mute:I.vol;setVol();};
+    bMute.onclick=()=>{v.muted=!v.muted;vol.value=v.muted?0:(v.volume||1);};
+    setVol();
 
-    /* تقديم/رجوع/سرعة/ملء الشاشة */
-    $p("#b-back").onclick = ()=>vEl.currentTime=Math.max(0,vEl.currentTime-10);
-    $p("#b-fwd").onclick  = ()=>vEl.currentTime=Math.min(vEl.duration||1e9,vEl.currentTime+10);
+    q("#b-back").onclick=()=>v.currentTime=Math.max(0,v.currentTime-10);
+    q("#b-fwd").onclick=()=>v.currentTime=Math.min(v.duration||1e9,v.currentTime+10);
     const speeds=[1,1.25,1.5,2,0.75]; let si=0;
-    $p("#b-speed").onclick = e=>{ si=(si+1)%speeds.length; vEl.playbackRate=speeds[si]; e.currentTarget.textContent=speeds[si]+"x"; };
+    q("#b-speed").onclick=e=>{si=(si+1)%speeds.length;v.playbackRate=speeds[si];e.currentTarget.textContent=speeds[si]+"x";};
     function fs(){
-      if(document.fullscreenElement||document.webkitFullscreenElement){
-        (document.exitFullscreen||document.webkitExitFullscreen).call(document);
-      }else if(player.requestFullscreen){ player.requestFullscreen(); }
-      else if(player.webkitRequestFullscreen){ player.webkitRequestFullscreen(); }
-      else if(vEl.webkitEnterFullscreen){ vEl.webkitEnterFullscreen(); }
+      if(document.fullscreenElement||document.webkitFullscreenElement){(document.exitFullscreen||document.webkitExitFullscreen).call(document);}
+      else if(player.requestFullscreen){player.requestFullscreen();}
+      else if(player.webkitRequestFullscreen){player.webkitRequestFullscreen();}
+      else if(v.webkitEnterFullscreen){v.webkitEnterFullscreen();}
     }
-    $p("#b-fs").onclick = fs;
+    q("#b-fs").onclick=fs;
 
     /* إخفاء الأدوات عند الخمول */
-    const wake = ()=>{ player.classList.remove("idle"); clearTimeout(idleT); idleT=setTimeout(()=>player.classList.add("idle"),2800); };
-    ["mousemove","touchstart","keydown"].forEach(ev=>player.addEventListener(ev,wake));
-    wake();
+    let idleT; const wake=()=>{player.classList.remove("idle");clearTimeout(idleT);idleT=setTimeout(()=>player.classList.add("idle"),2800);};
+    ["mousemove","touchstart","keydown"].forEach(ev=>player.addEventListener(ev,wake)); wake();
 
     /* اختصارات لوحة المفاتيح */
-    const key = e=>{
-      if(!modal.classList.contains("open")) return;
-      if(e.key==="Escape") return closePlayer();
-      if(!vEl) return;
-      if(e.key===" "||e.key==="k"){ e.preventDefault(); toggle(); }
-      else if(e.key==="ArrowRight"){ vEl.currentTime+=5; }
-      else if(e.key==="ArrowLeft"){ vEl.currentTime-=5; }
-      else if(e.key==="f"){ fs(); }
-      else if(e.key==="m"){ bMute.click(); }
-    };
-    document.addEventListener("keydown",key);
-    cleanup.push(()=>document.removeEventListener("keydown",key));
-  }
+    document.addEventListener("keydown",e=>{
+      if(!document.body.contains(v) || wall.classList.contains("open") || gate.classList.contains("show")) return;
+      if(e.key===" "||e.key==="k"){e.preventDefault();toggle();}
+      else if(e.key==="ArrowRight")v.currentTime+=5;
+      else if(e.key==="ArrowLeft")v.currentTime-=5;
+      else if(e.key==="f")fs();
+      else if(e.key==="m")bMute.click();
+    });
 
-  function closePlayer(){
-    if(vEl){ try{ vEl.pause(); vEl.removeAttribute("src"); vEl.load(); }catch(e){} vEl=null; }
-    cleanup.forEach(f=>f()); cleanup=[]; clearTimeout(idleT);
-    player.innerHTML=""; player.className="player";
-    modal.classList.remove("open"); document.body.classList.remove("locked");
-    if(document.fullscreenElement) document.exitFullscreen();
+    /* بدء التشغيل مباشرة (الضغط على «متابعة» يُحتسب تفاعلاً من الزائر) */
+    v.play().catch(()=>{});
   }
-  $("#m-close").onclick = closePlayer;
-  modal.addEventListener("click",e=>{ if(e.target===modal) closePlayer(); });
-  document.addEventListener("keydown",e=>{ if(e.key==="Escape" && modal.classList.contains("open") && !vEl) closePlayer(); });
 })();
 </script>
 </body>
