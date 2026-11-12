@@ -513,37 +513,19 @@ const CONFIG = {
     {
       title: "الفيديو الأول",
       description: "وصف مختصر للفيديو الأول.",
-      duration: "12:30",
-      thumb: "",
-      src: "https://example.com/video1.mp4",
-      type: "video",
+      duration: "",
+      thumb: "https://vz-05a47d04-98d.b-cdn.net/115a9c19-b357-43d1-8647-e1e0d15552dd/thumbnail.jpg",
+      src: "https://iframe.mediadelivery.net/embed/807602/115a9c19-b357-43d1-8647-e1e0d15552dd?autoplay=false&preload=true",
+      type: "embed",
       tag: "جديد"
     },
     {
       title: "الفيديو الثاني",
       description: "وصف مختصر للفيديو الثاني.",
-      duration: "08:45",
-      thumb: "",
-      src: "https://example.com/video2.mp4",
-      type: "video",
-      tag: ""
-    },
-    {
-      title: "الفيديو الثالث",
-      description: "وصف مختصر للفيديو الثالث.",
-      duration: "15:10",
-      thumb: "",
-      src: "https://example.com/video3.mp4",
-      type: "video",
-      tag: ""
-    },
-    {
-      title: "الفيديو الرابع",
-      description: "وصف مختصر للفيديو الرابع.",
-      duration: "10:05",
-      thumb: "",
-      src: "https://example.com/video4.mp4",
-      type: "video",
+      duration: "",
+      thumb: "https://vz-05a47d04-98d.b-cdn.net/42980d7f-9504-4c52-a3de-6e21239d9243/thumbnail.jpg",
+      src: "https://iframe.mediadelivery.net/embed/807602/42980d7f-9504-4c52-a3de-6e21239d9243?autoplay=false&preload=true",
+      type: "embed",
       tag: ""
     }
   ]
@@ -632,7 +614,6 @@ const CONFIG = {
     if(v.type === "embed"){
       const f = document.createElement("iframe");
       f.src = safeUrl(v.src); f.allow = "autoplay; fullscreen; picture-in-picture"; f.allowFullscreen = true;
-      f.referrerPolicy = "no-referrer";
       player.appendChild(f); return;
     }
     buildVideo(v);
